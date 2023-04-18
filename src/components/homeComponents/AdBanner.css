@@ -1,0 +1,45 @@
+.ad-banner {
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wrd-div > * {
+    margin: 15px;
+}
+
+.banner-p {
+    color: white;
+    font-family: Inter;
+    font-size: 16pt;
+    max-width: 740px;
+}
+
+.banner-title {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 30pt;
+    color: rgb(243, 139, 59);
+    margin: 28px;
+}
+
+.blue-btn {
+    background-color: rgb(72, 121, 124);
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    font-family: Inter;
+    font-size: 14pt;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.blue-btn:hover {
+    background-color: rgb(60, 92, 93);
+    cursor: pointer;
+}

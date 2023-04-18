@@ -1,0 +1,49 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipe-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin: 20px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    background-color: rgb(245, 211, 186);
+    height: 37px;
+    width: 400px;
+}
+
+.search > input {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 211, 186);
+    height: 30px;
+    width: 350px;
+    padding-top: 3px;
+    font-size: 16pt;
+    font-family: Inter;
+    color: rgb(23, 23, 24);
+}
+
+::placeholder {
+    font-size: 16pt;
+    font-family: Inter;
+    color: rgb(53, 53, 55);
+    font-weight: 100;
+}
+
+input:focus {
+    background: none;
+    border: none;
+    outline: none;
+}
