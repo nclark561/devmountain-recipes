@@ -24,14 +24,20 @@ const DetailScreen = () => {
         <div className="ingredients">
           <h2 className="ing">Recipe</h2>
           <div className="rec">
-            <p className="ing-p">Prep Time: 2 min</p>
-            <p className="ing-p">Cook Time: 3 min</p>
+            <p className="ing-p">Prep Time: 15 minutes</p>
+            <p className="ing-p">Cook Time: 30 minutes</p>
             <p className="ing-p">Serves: 5</p>
           </div>
           <h2 className="ing">Ingredients</h2>
           <ul className="ing-list">
-            <li></li>
-            <li></li>
+            <li>asd</li>
+            <li>asd</li>
+            <li>asdf</li>
+            <li>adsf</li>
+            <li>asdf</li>
+            <li>asdf</li>
+            <li>asdf</li>
+            <li>asdf</li>
           </ul>
         </div>
         <div className="instructions">
