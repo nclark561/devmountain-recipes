@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Formik } from "formik";
+import axios from 'axios'
 import './NewRecipeScreen.css'
 
 const NewRecipeScreen = () => {
@@ -27,6 +28,9 @@ const NewRecipeScreen = () => {
   const onSubmit = (values) => {
     values.ingredients = ingr
     console.log(values)
+    axios.post('https://recipes.devmountain.com/recipes', values)
+      .then(res => console.log(res.data))
+      .catch(err => console.log(err))
   }
 
   return (

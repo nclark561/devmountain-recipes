@@ -41,7 +41,7 @@ const DetailScreen = () => {
           </div>
           <h2 className="ing">Ingredients</h2>
           <ul className="ing-list">
-            {recipe.ingredients && recipe.ingredients.map(e => <li key ={e.ingredient_id}>{e.ingredient}</li>)}
+            {recipe.ingredients && recipe.ingredients.map(e => <li key ={e.ingredient_id}>{e.quantity} {e.ingredient}</li>)}
           </ul>
         </div>
         <div className="instructions">
