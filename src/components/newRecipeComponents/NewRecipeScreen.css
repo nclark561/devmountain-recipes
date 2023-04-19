@@ -7,13 +7,134 @@
     font-family: Inter;
     font-size: 24pt;
     font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .new-rec {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 label {
     font-family: Inter;
+}
+
+.form-display {
+    display: flex;
+}
+
+.vertical-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    padding-bottom: 5px;
+}
+
+.ingr-list {
+    min-width: 220px;
+    font-family: Inter;
+    height: fit-content;
+    padding-top: 12px;
+}
+
+.new-ing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orange-btn {
+    background-color: rgb(243, 139, 59);
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    font-family: Inter;
+    font-size: 14pt;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+.orange-btn:hover {
+    cursor: pointer;
+    background-color: rgb(215, 114, 36);
+}
+
+input {
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    margin: 10px;
+    height: 30px;
+    font-family: Inter;
+    font-size: 14pt;
+    padding:5px;
+}
+
+input:focus {
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    min-width: 100px;
+    margin: 10px;
+    height: 30px;
+}
+
+label {
+    font-family: Inter;
+    font-size: 18pt;
+    margin-right: 40px;
+}
+
+textarea {
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    margin: 10px;
+    font-family: Inter;
+    font-size: 14pt;
+    width: 500px;
+    height: 125px;
+}
+
+.misc-in {
+    width: 140px;
+}
+
+::placeholder {
+    font-weight: 400;
+}
+.rec-name {
+    margin-right: 30px;
+}
+
+.radio-div {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.radio {
+    margin: 5px;
+    width: 50px;
+}
+
+.ing-in {
+    width: 250px;
+    margin-right: 25px;
+}
+
+.blue-btn {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.ingr-list > li {
+    font-size: 14pt;
+    margin-left: 40px;
 }
