@@ -1,0 +1,19 @@
+.new-rec-screen {
+    display: flex;
+    justify-content: center;
+}
+
+.new-rec-h {
+    font-family: Inter;
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+.new-rec {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: Inter;
+}
